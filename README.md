@@ -1,4 +1,4 @@
-# Login page
+# 👤 Login page
 This project tends to create a login system with: Login, Account creation, Password Reset
 
 ## 🚀 Tecnologies 
