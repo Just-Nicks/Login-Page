@@ -12,6 +12,6 @@ function login() {
         window.location.href = "success.html"
     } else {
         console.log("Incorrect");
-        document.getElementById("alert").classList.add("show");
+        document.getElementById("alertBox").style.display = "flex";
     }
 }

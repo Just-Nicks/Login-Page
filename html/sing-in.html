@@ -7,20 +7,18 @@
     <title>Login Page</title>
 </head>
 <body>
-    <div class="center-box">
-        <div id="alert" class="alert">
-            <img src="../icons/priority_high_24dp.svg">
-            Incorrect Password or User
-        </div>
+    <div class="alert-box" id="alertBox">
+        <img src="../icons/priority_high_24dp.svg">
+        <span>Username or Password incorrect!</span>
     </div>
     <div class="main">
-        <div class="login-box">
-            <div class="text-box">
-                <h1>Welcome Back!</h1>
-                <p>Please enter your details:</p>
+        <div class="login">
+            <div class="top">
+                <h1>Welcome back!</h1>
+                <p>Enter your Email and Password</p>
             </div>
             <div class="input-box">
-                <label>User:</label>
+                <label>User</label>
                 <input type="text" id="user">
             </div>
             <div class="input-box">
@@ -28,17 +26,17 @@
                 <input type="password" id="passwd">
             </div>
             <div class="link">
-                <a href="./forget-pass.html">Forget Password</a>
-            </div>
-            <div class="button">
-                <button id="sing_in">Sing In</button>
+                <a href="./pass_reset.html">Forget your password?</a>
             </div>
             <div class="link">
-                <p>Don't have an account?</p><a href="./sing-up.html">Sing-up</a>
+                <p>Don't have account?</p>
+                <a href="./sing-up.html">Sing-Up</a>
+            </div>
+            <div class="button-box">
+                <button id="sing_in">Login</button>
             </div>
         </div>
     </div>
-
     <script src="../script.js"></script>
 </body>
 </html>

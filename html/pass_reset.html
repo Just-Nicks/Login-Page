@@ -7,28 +7,29 @@
     <title>Login Page</title>
 </head>
 <body>
-    <div class="center-box">
+    <div class="alert-box" id="alertBox">
+        <img src="../icons/priority_high_24dp.svg">
+        <span>Username or Password incorrect!</span>
     </div>
     <div class="main">
-        <div class="login-box">
-            <div class="text-box">
-                <h1>Reset Password!</h1>
-                <p>Please enter new password:</p>
+        <div class="login">
+            <div class="top">
+                <h1>Welcome back!</h1>
+                <p>Enter your Email and Password</p>
             </div>
             <div class="input-box">
-                <label>New password:</label>
+                <label>New password</label>
                 <input type="text">
             </div>
             <div class="input-box">
-                <label>Repeat password:</label>
-                <input type="text">
+                <label>Repeat New Password:</label>
+                <input type="password">
             </div>
-            <div class="button">
-                <button id="sing_in">Sing In</button>
+            <div class="button-box">
+                <button id="sing_in">Reset Password</button>
             </div>
         </div>
     </div>
-
     <script src="../script.js"></script>
 </body>
 </html>
